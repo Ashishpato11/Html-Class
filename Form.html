@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+          body{
+               background-color: rgb(214, 208, 208)211, 202, 202;
+          }
+          h1{
+               margin-left: 10px;
+          }
+          div{
+               display: inline-block;
+               margin: 7px 2px 7px 10px;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 14px;
+          }
+      
+          label{
+               margin-left: 10px;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 14px;
+
+          }
+          label#role{
+               margin-bottom: 4px;
+               font-size: 18px;
+          }
+
+          .sec col{
+               padding-left: 10 px;
+          }
+    </style>
+</head>
+<body>
+    <h1>Form design</h1>
+    <form action="backend.php">
+       <div>
+            <strong>Name</strong>: <input type="text">
+       </div> 
+
+       <div class="sec col">
+            <strong>Birth Date</strong>: <input type="date" name="" id="birthdate">
+       </div> 
+       <br>
+       <div>
+          <strong> Address</strong>: <input type="text" name="Address" id="Address">
+       </div>
+
+       <div>
+            <strong>Phone number</strong>: <input type="number" name="" id="phnum">
+       </div>  
+       <br>
+       <div>
+            <strong>Email</strong>: <input type="email" name="" id="email">
+       </div> 
+
+       <label for="role" class="sec col"></label><Strong>Role: </Strong></label>
+       <select name="Myrole" id="role">
+           <option value="Programmer">Programmer</option>
+           <option value="Manager">Manager</option>
+           <option value="Intern">Intern</option>
+       </select>
+       <br>
+       <div>
+          <input type="submit" value="Submit Now"> <input type="reset" value="Reset">
+       </div>
+    </form>
+</body>
+</html>

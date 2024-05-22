@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+p{
+    color: red;
+}
+button{
+    background-color: brown;
+    color: black ;
+}
+body{
+    background-color: white;
+}
+#box1{
+    background-color: aqua;
+}
+#text{
+    text-align: right ;
+}

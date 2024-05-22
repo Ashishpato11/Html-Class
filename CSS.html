@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles</title>
+   
+   <style>
+        /* Internal CSS */
+
+        /* for id selector  */
+        #Element{
+            color: blueviolet; background-color: aqua;
+                }
+        
+        /* For class selector */
+        .YellowBG{
+            color:green; background-color: yellow;
+                }
+        
+        /* for multiple selectors */
+        footer,span#lastpara{
+            color: crimson; font-style: italic;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h3 style=color:blue;>CSS Styles</h3>
+
+    <!-- Inline CSS -->
+    <p style="color: aqua;"><strong>This is 1st para.</strong> This is a paragraph.</p>
+    <span id="Element">This is second paragraph.</span>
+    <p class="YellowBG">This is third paragraph.</p>
+    <span class="YellowBG">This is another paragraph.</span>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <br>
+    <span id="lastpara">This last paragraph.</span>
+    <footer>This is footer.</footer>
+
+</body>
+</html>
